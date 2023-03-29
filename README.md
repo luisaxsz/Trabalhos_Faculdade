@@ -1,2 +1,2 @@
-# Trabalhos_Faculdade
-Projetos feitos em grupo ou sozinha para matérias na faculdade
+Projetos de faculdade
+Projetos desenvolvidos na faculdade de ciências da computação
