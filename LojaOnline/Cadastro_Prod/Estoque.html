@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Estoque.css" />
+    <title>Cadastro Produtos</title>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="form">
+        <form action="Estoque.php" method="POST">
+          <div class="form-header">
+            <div class="title">
+              <h1>Cadastro de Produtos</h1>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-box">
+              <label for="nome">Nome do produto</label>
+              <input
+                id="nome"
+                type="text"
+                name="nome"
+                placeholder="Nome"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="cod_prod">Código do produto</label>
+              <input
+                id="quantidade"
+                type="number"
+                name="cod_prod"
+                placeholder="Código do produto"
+                required
+                size="4"
+              />
+            </div>
+            <div class="input-box">
+              <label for="marca">Marca do produto</label>
+              <input
+                id="marca"
+                type="text"
+                name="marca"
+                placeholder="Marca"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="valor">Valor do produto</label>
+              <input
+                id="valor"
+                type="number"
+                name="valor"
+                placeholder="Valor"
+                required
+              />
+            </div>
+          </div>
+          <div class="cadastrar-button">
+            <button onclick="cadastrarProdutos()">
+              <a href="#">Cadastrar</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
